@@ -1,3 +1,10 @@
 {
-  "extends": ["taro/react"]
+  "extends": [
+    "taro/react"
+  ],
+  "rules": {
+    "react/jsx-key": 0,
+    "import/no-commonjs": 0,
+    "import/first": 0
+  }
 }

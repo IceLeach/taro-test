@@ -14,7 +14,7 @@ export default{
     },
 
     reducers:{
-        INCREMENT(state,{payload}){
+        INCREMENT(state){
             return {...state,count:state.count+1};
         },
         DECREMENT(state){
